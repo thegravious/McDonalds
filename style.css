@@ -1,0 +1,191 @@
+.wid {
+  width: 120px;
+}
+
+.hei {
+  height: 80px;
+}
+
+.wid1 {
+  width: 40px;
+}
+
+.wid2 {
+  width: 200px;
+}
+
+.hei1 {
+  height: 40px;
+}
+
+.hei2 {
+  height: 50px;
+}
+
+
+.fs-11 {
+  font-size: 60px;
+}
+.fs-12 {
+  font-size: 120px;
+}
+
+.fs-10{
+    font-size: 70px;
+}
+
+.bungee-regular {
+  font-family: "Bungee", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.lobster-regular {
+    font-family: "Lobster", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+
+.bg-mcd{
+  background-color: #da0007;
+}
+
+.text-mcd{
+  color: #da0007;
+}
+
+
+.ledt{
+  animation-name : move;
+  animation-timeline: view(0px  200px);
+  position: absolute;
+  z-index: -1;
+  font-size: 40px;
+  right: 670px;
+}
+
+
+@keyframes move {
+
+  0%{
+    position: absolute;
+    scale: 0;
+  }
+
+
+  100%{
+    position: absolute;
+    scale :9;
+    z-index:-1;
+    right: 500px;
+    transition-delay: 2s;
+  }
+   
+}
+
+
+.z-index-1{
+  z-index: -1;
+}
+
+
+.move{
+  animation:scroll 10s linear infinite ;
+}
+
+
+@keyframes scroll {
+  to {
+transform: translateX(-100%);
+  }
+}
+
+
+.fs-12:hover {
+  animation-play-state: paused;
+}
+
+.text-shadow{
+  text-shadow: 0px 10px 20px rgba(0, 0, 0, 1);
+}
+
+.left{
+  position: relative;
+  left: 50px;
+}
+
+.left1{
+  position: relative;
+  z-index: 1;
+  left:320px;
+  animation-name: moveleft ;
+  animation-timeline: view(700px  0px);
+  animation-timing-function: ease-out;
+
+}
+
+@keyframes moveleft {
+  0% {
+    position: absolute;
+    left: 500px;
+  }
+
+
+  100%{
+    position: absolute;
+    left: 320px;
+  }
+}
+
+.bg-move{
+  position: absolute;
+  height: 520px;
+  animation-name: bg-move ;
+  z-index: -1;
+  animation-timeline: view(0px  300px);
+  animation-timing-function: ease-in;
+}
+
+
+@keyframes bg-move {
+  from{
+    width: 50%;
+  }
+  to{
+    width: 200vw;
+  }
+}
+
+.margintop{
+  margin-top: 600px;
+}
+
+.girl img{
+  width: 800px;
+  height: auto;
+}
+
+
+.fries{
+  position: absolute;
+  left: 300px;
+  animation-name: fries ;
+  z-index: -2;
+  animation-timeline: view(300px  0px);
+  animation-timing-function: ease-in;
+}
+
+@keyframes fries {
+  0% {
+    scale: 1;
+  }
+
+  50%{
+    scale: 2;
+  }
+
+  100%{
+    scale: 1;
+  }
+}
