@@ -45,6 +45,23 @@
     font-weight: 900;
     font-style: normal;
   }
+
+  .great-vibes-regular {
+    font-family: "Great Vibes", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.advent-pro {
+  font-family: "Advent Pro", sans-serif;
+  font-weight: 300;
+}
+
+
+.grandstander{
+  font-family: "Grandstander", cursive;
+  font-weight: 100;
+}
   
 
 .bg-mcd{
@@ -106,6 +123,12 @@
   right: 0px;
 }
 
+.move4{
+  position: absolute;
+  top: 0px;
+  left: 750px;
+}
+
 
 .move{
   animation:scroll 10s linear infinite ;
@@ -157,10 +180,11 @@ transform: translateX(-100%);
 
 .bg-move{
   position: absolute;
+  left: 0px;
   height: 520px;
   animation-name: bg-move ;
   z-index: -1;
-  animation-timeline: view(0px  300px);
+  animation-timeline: view(0px 0px);
   animation-timing-function: ease-in;
 }
 
@@ -170,7 +194,7 @@ transform: translateX(-100%);
     width: 50%;
   }
   to{
-    width: 200vw;
+    width: 100vw;
   }
 }
 
@@ -184,6 +208,10 @@ transform: translateX(-100%);
 
 .margintop2{
   margin-top: 50px;
+}
+
+.margintop3{
+  margin-top: 250px;
 }
 
 
@@ -319,4 +347,29 @@ transform: translateX(-100%);
   position: relative;
   top: 170px;
   height: 60px;
+}
+
+.movedown1{
+  position: relative;
+  top: 620px;
+}
+
+
+
+.borrad{
+  width: 650px;
+  border-bottom-right-radius:100px ;
+}
+
+.borradleft{
+  width: 650px;
+  border-bottom-left-radius:100px ;
+}
+
+.cur{
+cursor: url("./img/mc-cursor.png"), auto;
+}
+
+.hei100vh{
+  height: 100vh;
 }
