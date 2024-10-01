@@ -374,3 +374,11 @@ cursor: url("./img/mc-cursor.png"), auto;
   height: 100vh;
 }
 
+.fs-100vh{
+  font-size: 170px;
+}
+
+
+.disblock:hover{
+  box-shadow: 0px 0px 30px orange;
+}
