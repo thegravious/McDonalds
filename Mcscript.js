@@ -20,9 +20,9 @@ fun1 = () => {
     t = false
 
     for(i = 0; i < userName.length; i++){
-        // console.log(userName[i].name)
+        console.log(userName[i].name)
         if(z == userName[i].username && z1 == userName[i].password){
-            // console.log("found")
+            console.log("found")
             t = true
             break
         }
@@ -60,7 +60,6 @@ fun1 = () => {
 
     }
 
-    console.log(spanx)
     
     y.value   = ""
     y1.value  = ""
