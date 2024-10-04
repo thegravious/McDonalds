@@ -1,0 +1,39 @@
+.hei{
+    height: 100vh;
+}
+
+.back{
+    background: url(./img/LB_LONDON_McDELIVERY_LIGHTS-ON_BOARD-1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box1{
+    height: 70vh;
+    width: 30vw;
+    background-color: black;
+    opacity: 0.8;
+    /* filter: blur(8px); */
+}
+
+.fs-11{
+    font-size: 60px;
+    color: white;
+}
+
+.disnone{
+    display: none;
+}
+
+.disblock{
+    display: block;
+}
+
+
+.failed{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}

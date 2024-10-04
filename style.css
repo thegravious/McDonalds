@@ -392,3 +392,7 @@ cursor: url("./img/mc-cursor.png"), auto;
 
 }
 
+.stick{
+  position: absolute;
+  right: 0px;
+}
