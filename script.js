@@ -1,3 +1,5 @@
+
+
 let loader = document.getElementById("preloader")
 
 pre = () => {
@@ -5,7 +7,5 @@ pre = () => {
 }
 
 window.addEventListener("load" , pre)
-
-
 
 

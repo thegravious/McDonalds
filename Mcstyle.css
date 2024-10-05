@@ -3,7 +3,7 @@
 }
 
 .back{
-    background: url(./img/LB_LONDON_McDELIVERY_LIGHTS-ON_BOARD-1.jpg);
+    background: url(./img/bk-1-1536x864.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -12,8 +12,8 @@
 .box1{
     height: 70vh;
     width: 30vw;
-    background-color: black;
-    opacity: 0.8;
+    background-color: #da0007 ;
+    /* opacity: 0.85; */
     /* filter: blur(8px); */
 }
 
@@ -22,9 +22,14 @@
     color: white;
 }
 
+.text-mcd{
+    color: #da0007 ;
+}
+
+
+
 .fs-12{
     font-size: 50px;
-    color: white;
 }
 
 

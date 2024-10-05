@@ -15,6 +15,7 @@ let z1 = y1.value
 let div11 = document.getElementById("div1")
 let div12 = document.getElementById("div2")
 
+
 fun1 = () => {
     z = y.value
     z1 = y1.value
@@ -58,7 +59,7 @@ fun1 = () => {
 
         let spanx = document.createElement("span")
         spanx.innerText = "Login Failed"
-        spanx.classList.add("fs-12", "text-danger" , "failed" , "bungee-regular")
+        spanx.classList.add("fs-12", "text-mcd", "bg-warning" , "failed" , "bungee-regular", "rounded-5")
         div11.appendChild(spanx)
 
 
@@ -72,3 +73,4 @@ fun1 = () => {
 }
 
 x.addEventListener("click", fun1)
+

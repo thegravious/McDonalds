@@ -384,7 +384,7 @@ cursor: url("./img/mc-cursor.png"), auto;
 }
 
 .preloader1{
-  background: white url(./img/preloader.gif) no-repeat center center;
+  background: white url(./img/preloader2.gif) no-repeat center center;
   width: 100vw;
   height: 100vh;
   position: fixed;
