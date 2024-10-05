@@ -1,6 +1,8 @@
 let userName = [
     { "name": "Girish Tomar", "username": "thegravious", "password": "thegravious" },
     { "name": "Rahul Singh Tomar", "username": "thugslane", "password": "thugslane" },
+    { "name": "Radha Tomar", "username": "radharani", "password": "radharani" },
+    { "name": "Thakur shab", "username": "papa", "password": "radharani" },
 ]
 
 let x = document.getElementById("btn1")
@@ -32,6 +34,8 @@ fun1 = () => {
         x.classList.add("disnone")
         x1.classList.remove("disnone")
         x1.classList.add("disblock")
+        // x1.innerText = "welcome :" + document.createElement("br") + userName[i].name
+        x1.innerHTML = "welcome :<br>" + userName[i].name;
         y.classList.add("disnone")
         y1.classList.add("disnone")
         x.classList.add("disnone")
@@ -53,8 +57,8 @@ fun1 = () => {
 
 
         let spanx = document.createElement("span")
-        spanx.innerText = "Login Falied"
-        spanx.classList.add("fs-11", "text-light" , "failed" ,"bg-danger")
+        spanx.innerText = "Login Failed"
+        spanx.classList.add("fs-1", "text-danger" , "failed" , "bungee-regular")
         div11.appendChild(spanx)
 
 
