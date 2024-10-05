@@ -58,7 +58,7 @@ fun1 = () => {
 
         let spanx = document.createElement("span")
         spanx.innerText = "Login Failed"
-        spanx.classList.add("fs-1", "text-danger" , "failed" , "bungee-regular")
+        spanx.classList.add("fs-12", "text-danger" , "failed" , "bungee-regular")
         div11.appendChild(spanx)
 
 
