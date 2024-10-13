@@ -417,5 +417,6 @@ cursor: url("./img/mc-cursor.png"), auto;
   
   .marque h1{
       font-size: 120px;
-      color: white;
+      /* color: white; */
+      color: #da0007;
   }
