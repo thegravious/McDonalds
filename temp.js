@@ -1,14 +1,3 @@
-
-
-let loader = document.getElementById("preloader")
-
-pre = () => {
-    loader.classList.remove("preloader1")
-}
-
-window.addEventListener("load" , pre)
-
-
 const move = () => {
     window.addEventListener("wheel", (x) => {
         if (x.deltaY > 0) {

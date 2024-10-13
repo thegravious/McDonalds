@@ -74,3 +74,5 @@ fun1 = () => {
 
 x.addEventListener("click", fun1)
 
+
+
