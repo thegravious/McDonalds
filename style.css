@@ -358,6 +358,7 @@ transform: translateX(-100%);
 .movedown1{
   position: relative;
   top: 620px;
+  z-index: 101;
 }
 
 .movedown2{
