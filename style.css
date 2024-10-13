@@ -155,6 +155,12 @@ transform: translateX(-100%);
   left: 450px;
 }
 
+.left1-1{
+  position: relative;
+  left: 100px;
+}
+
+
 .left1{
   position: relative;
   z-index: 1;
@@ -419,4 +425,9 @@ cursor: url("./img/mc-cursor.png"), auto;
       font-size: 120px;
       /* color: white; */
       color: #da0007;
+  }
+
+
+  .overflowhidden{
+    overflow: hidden;
   }
